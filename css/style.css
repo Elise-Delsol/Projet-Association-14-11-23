@@ -1,0 +1,177 @@
+@media (min-width:320px)  and (max-width:521px) { 
+    .title{
+        padding-bottom: 50px;
+    }
+    .img__responsive {
+        width: 300%;
+    }
+    .map {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+@media (max-width:768px) {
+    .title{
+        padding-bottom: 50px;
+    }
+    .img__responsive {
+        width: 300%;
+    }
+    .map {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+body {
+    background-color: rgb(146, 212, 236);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER */
+.navbar {
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 1%;
+}
+
+.navbar-brand {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(19, 141, 172);
+}
+
+li {
+    color: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url("https://www.o2.fr/documents/20124/1525808/couple-cuisine-menage-repassage-o2+%281%29.jpg/30f0020b-7dcc-5231-f7c2-846b7290b8b0?t=1679327423707&download=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+
+
+h1 {
+    color: rgb(253, 253, 253);
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* Start MAIN */
+
+.a-propos {
+    display:inline-block;
+    position: relative;
+    background-color: rgb(38, 183, 236);
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 5%;
+    padding-top: 3px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 5, 9, 0.435);
+    size: 50%;
+    padding-bottom: 3%;
+}
+
+p {
+    color: rgb(254, 249, 249);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    letter-spacing: 2px;
+}
+
+.services {
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: rgba(0, 5, 9, 0.435);
+    border-radius: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+h3 {
+    display: inline-block;
+    position: absolute;
+    height: 100px;
+    padding-right: 25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(254, 249, 249);
+}
+
+.image {
+    margin-top: 20% ;
+}
+
+.video { 
+    display: flex;
+    justify-content:center;
+    border-style:unset;
+}
+
+.map {
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    height: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+h4 {
+    margin-left: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(254, 249, 249);
+}
+/* End MAIN */
+
+
+/* Start FOOTER */
+footer {
+    background-color: rgba(31, 154, 192, 0.824);
+    padding: 10px;
+}
+
+.icons {
+    size: 30%;
+    margin-top: 1%;
+}
+
+
+

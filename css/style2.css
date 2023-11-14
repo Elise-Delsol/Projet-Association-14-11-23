@@ -1,0 +1,108 @@
+@media  (min-width: 551px) and (max-width: 750px) {
+    .box {
+        top: 240px;
+    }
+}
+
+@media  (min-width: 555px) and (max-width: 749px) {
+    .box {
+        top: 175px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1450px) {
+    .box {
+        top: 20px;
+    }
+
+    section.hero {
+        margin-top: 350px;
+    }
+}
+
+
+    /* Start HEADER */
+    header {
+        margin-bottom: 2%;
+    }
+    
+    .title {
+        background-color: rgb(15, 53, 54);
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 50px;
+        color: rgb(56 169 169);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 3px;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 3px;
+        color: #070a79;
+    }
+    /* End HEADER */
+    
+    
+    
+    /* Start MAIN */
+    .box {
+        width: 90%;
+        margin-top: 300px;
+        padding: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, .5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+    /* End MAIN */
+    
+    
+    
+    /* Start HERO */
+    .hero {
+        margin-top: 650px;
+        margin-left:30% ;
+        margin-right:30% ;
+
+    }
+    
+    h2 {
+        background-color: rgb(28, 189, 195);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom:30px ;
+    }
+
+        p {
+            margin-bottom: 1rem;
+        }
+        .bold {
+            background-color: rgb(197, 217, 98);
+            padding-top: 15px;
+            width:100%;
+            font-weight: bold;
+        }
+    
+    /* End HERO */
+    
+    
+    /* Start FOOTER */
+    .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(98, 207, 217);
+        color: white;
+        text-align: center;
+    }
+
